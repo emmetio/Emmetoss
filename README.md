@@ -38,9 +38,9 @@ btn => <button type="submit"></button> /* HTML, instead of '<button></button>' *
 * Default values
 
 ```css
-ov => overflow:hidden; /* CSS, instead of 'overflow:;' */
+ov => overflow: hidden; /* CSS, instead of 'overflow:;' */
 fw => font-weight: bold; /* 'font-weight:;' */
-ws => white-space:nowrap; /* 'white-space:;' */
+ws => white-space: nowrap; /* 'white-space:;' */
 ```
 
 * Extra snippets for existing properties
@@ -61,7 +61,7 @@ See the [Reference](https://github.com/damirberg/Emmetoss/wiki) for more info.
 
 * Install [Emmet plugin](https://github.com/sergeche/emmet-sublime)
 * Open menu item "Preferences", click on "Browse packages"
-* Copy `Emmet.sublime-settings` into this folder
+* Copy `Emmet.sublime-settings` into `/User/` folder
 
 ### Other editors
 
