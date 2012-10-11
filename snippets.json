@@ -10,6 +10,9 @@
 	"css": {
 		"filters": "html",
 		"snippets": {
+			/* comments */
+			"cmb": "/* |\n----------------------------------- */",
+
 			/* keyframes */
 			"@k": "@keyframes ${1:identifier} {\n\t${2:from} { ${3} }${6}\n\t${4:to} { ${5} }\n}",
 			"@k-": "@keyframes ${1:identifier} {\n\t${2}\n}",
@@ -880,6 +883,37 @@
 			"ff:lc": "font-family:'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Bitstream Vera Sans Mono', monospace;",
 
 			/* font-stacks */
+			"fsk:s": "Georgia, Times, 'Times New Roman', serif",
+			"fsk:s-": "serif",
+			"fsk:ss": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+			"fsk:ss-": "sans-serif",
+			"fsk:m": "'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace",
+			"fsk:m-": "monospace",
+			"fsk:c": "cursive",
+			"fsk:f": "fantasy",
+
+			"fsk": "Arial, 'Helvetica Neue', Helvetica, sans-serif",
+			"fsk:a": "Arial, 'Helvetica Neue', Helvetica, sans-serif",
+			"fsk:an": "'Arial Narrow', Arial, sans-serif",
+			"fsk:cg": "'Century Gothic', CenturyGothic, AppleGothic, sans-serif",
+			"fsk:h": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+			"fsk:i": "Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans serif",
+			"fsk:lg": "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif",
+			"fsk:su": "'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif",
+			"fsk:t": "Tahoma, Verdana, Segoe, sans-serif",
+			"fsk:tm": "'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif",
+			"fsk:v": "Verdana, Geneva, sans-serif",
+
+			"fsk:ba": "'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif",
+			"fsk:g": "Georgia, Times, 'Times New Roman', serif",
+			"fsk:p": "Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif",
+			"fsk:tn": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+			"fsk:tnr": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+
+			"fsk:cn": "'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace",
+			"fsk:lc": "'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Bitstream Vera Sans Mono', monospace",
+
+			/* font-stacks full */
 			"f:s": "font:${1:italic }${2:bold }${3}${4:px}${7:/}${5}${6:px} ${8:Georgia, Times, 'Times New Roman', serif};",
 			"f:s-": "font:${1:italic }${2:bold }${3}${4:px}${7:/}${5}${6:px} ${8:serif};",
 			"f:ss": "font:${1:italic }${2:bold }${3}${4:px}${7:/}${5}${6:px} ${8:'Helvetica Neue', Helvetica, Arial, sans-serif};",
