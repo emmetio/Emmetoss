@@ -347,9 +347,9 @@
 				"bdf:sp": "border-fit:space;",
 
 				/* border-length */
-				"bdl": "border-length:auto;",
-				"bdl-": "border-length:|;",
-				"bdl:a": "border-length:auto;",
+				"bdln": "border-length:auto;",
+				"bdln-": "border-length:|;",
+				"bdln:a": "border-length:auto;",
 
 				/* border-style */
 				"bds": "border-style:solid;",
@@ -1477,13 +1477,16 @@
 				"button:s": "<button type=\"submit\">",
 
 				"ad": "<address>",
+				"addr": "<address>",
 
 				"st": "<strong>",
 
 				"fs": "<fieldset>",
 
+				"au": "<audio src=\"\">",
 				"aud": "<audio src=\"\">",
 
+				"vi": "<video src=\"\">",
 				"vid": "<video src=\"\">",
 
 				"tax": "<textarea name=\"\" id=\"\" cols=\"${1:30}\" rows=\"${2:10}\">",
@@ -1582,8 +1585,8 @@
 				"f:get": "<form action=\"#\" method=\"get\">",
 				"f:post": "<form action=\"#\" method=\"post\">",
 
-				"form:g": "<form action=\"\" method=\"get\">",
-				"form:p": "<form action=\"\" method=\"post\">",
+				"form:g": "<form action=\"#\" method=\"get\">",
+				"form:p": "<form action=\"#\" method=\"post\">",
 
 				"aa": "<area shape=\"\" coords=\"\" href=\"\" alt=\"\" />",
 				"aa:d": "<area shape=\"default\" href=\"\" alt=\"\" />",
@@ -1758,6 +1761,19 @@
 				"a:l": "<a href=\"http://|\">",
 				"a": "<a href=\"${1:#}\">"
 			}
+		},
+		"stylus": {
+			"snippets": {
+				"@f": "@font-face\n\tfont-family '${1:FontName}'\n\tsrc url('${2:FileName}.eot')\n\tsrc url('${2:FileName}.eot?#iefix') format('embedded-opentype'),\n\t\turl('${2:FileName}.woff') format('woff'),\n\t\turl('${2:FileName}.ttf') format('truetype'),\n\t\turl('${2:FileName}.svg#${1:FontName}') format('svg')\n\tfont-style ${3:normal}\n\tfont-weight ${4:normal}\n",
+				"@f+": "@font-face\n\tfont-family '${1:FontName}'\n\tsrc url('${2:FileName}.eot')\n\tsrc url('${2:FileName}.eot?#iefix') format('embedded-opentype'),\n\t\turl('${2:FileName}.woff') format('woff'),\n\t\turl('${2:FileName}.ttf') format('truetype'),\n\t\turl('${2:FileName}.svg#${1:FontName}') format('svg')\n\tfont-style ${3:normal}\n\tfont-weight ${4:normal}\n",
+				"@f-": "@font-face\n\tfont-family |\n\tsrc url(|);\n"
+			}
 		}
+	},
+	"preferences": {
+		"css.autoInsertVendorPrefixes": true,
+		"css.unitlessProperties": "animation, animation-delay, animation-direction, animation-duration, animation-fill-mode, animation-iteration-count, animation-name, animation-play-state, animation-timing-function, z-index, zoom, opacity, font-weight",
+		"stylus.valueSeparator": " ",
+		"stylus.propertyEnd": ""
 	}
 }

@@ -11,7 +11,7 @@ Emmetoss is an extended HTML and CSS snippets collection for the [Emmet toolkit]
 
 ## Features
 
-Multiple edit points are supported for most of the snippets, don't be confused.
+Multiple edit points are supported for most of the snippets.
 
 * Shorter abbreviations (fallback to original syntax is provided)
 
